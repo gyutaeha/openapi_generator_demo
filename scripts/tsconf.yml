@@ -1,0 +1,4 @@
+
+apiPackage: src/api
+modelPackage: src/model
+#npmRepository:

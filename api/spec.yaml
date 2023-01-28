@@ -1,0 +1,26 @@
+openapi: 3.0.3
+info:
+  title: OpenAPI Specification Generator Demo
+  description: OpenAPI Specification Generator Demo
+  version: 1.0.0
+servers:
+  - url: 'https'
+paths:
+  /healthcheck:
+    get:
+      summary: 헬스 체크를 위한 API
+      operationId: ticHealthCheck
+      tags:
+        - management
+      parameters: []
+      responses:
+        default:
+          description: 기본 응답 값
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthCheckResponse'
+components:
+  schemas:
+    HealthCheckResponse:
+      type: string
