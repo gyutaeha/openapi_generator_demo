@@ -1,0 +1,5 @@
+apiPackage: src/api
+modelPackage: src/model
+npmRepository: "https://npm.pkg.github.com" # GitHub NPM registry 공통
+npmName: "@gyutaeha/openapi_generator_demo" # GitHub 사용자, repo 이름
+useSingleRequestParameter: true

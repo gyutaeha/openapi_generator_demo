@@ -106,7 +106,7 @@
                                 ApiUtil.java
                             </supportingFilesToGenerate>
                             <configOptions>
-                                <delegatePattern>true</delegatePattern>
+                                <delegatePattern>false</delegatePattern>
                             </configOptions>
                         </configuration>
                     </execution>
